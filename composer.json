@@ -1,0 +1,23 @@
+{
+	"name" : "webazon/yoomoney",
+	"description" : "PHP library for YooMoney API",
+	"type" : "library",
+	"keywords" : [ "api", "yoomoney" ],
+	"autoload" : {
+		"psr-4" : {
+			"Webazon\\Yoomoney\\" : "src/"
+		}
+	},
+	"authors" : [
+		{
+			"name" : "Aleksey Katsef",
+			"email" : "aleksey@katsef.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=5.2",
+		"ext-curl" : "*"
+	},
+	"license" : "MIT"
+}
